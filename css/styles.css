@@ -649,12 +649,13 @@ justify-content: space-evenly;
     justify-content: center;
     height: 25vh;
     width: 45vw;
+    flex-wrap: wrap;
    
 }
 
 .box5-mobile-content p, .box5-mobile-content h1, .box5-mobile-content h4  {
    
-    width: 35vw;
+    width: 45vw;
    
 }
 
@@ -665,11 +666,12 @@ justify-content: space-evenly;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .box6-mobile-content p, .box6-mobile-content h1, .box6-mobile-content h4  {
    
-    width: 35vw;
+    width: 45vw;
    
 }
 
