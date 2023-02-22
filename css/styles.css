@@ -598,7 +598,7 @@ justify-content: space-evenly;
     grid-template-columns: 45% 55%;
     grid-template-rows: 100%;
     margin: 1.5rem 0;
-    line-height: 2.2;
+  line-height: 1.7;
 }
 
 
@@ -637,12 +637,32 @@ justify-content: space-evenly;
 .box5-mobile-content {
     height: 25vh;
     width: 45vw;
+    text-align: left;
    
 }
+
+.box5-mobile-content {
+    height: 25vh;
+    width: 45vw;
+   
+}
+
+.box5-mobile-content p, .box5-mobile-content h1, .box5-mobile-content h4  {
+   
+    width: 40vw;
+   
+}
+
 
 .box6-mobile-content {
     height: 25vh;
     width: 45vw;
+}
+
+.box6-mobile-content p, .box6-mobile-content h1, .box6-mobile-content h4  {
+   
+    width: 40vw;
+   
 }
 
 .box7-mobile-content {
@@ -651,6 +671,12 @@ justify-content: space-evenly;
     
 }
 
+
+.box7-mobile-content p, .box7-mobile-content h1, .box7-mobile-content h4  {
+   
+    width: 40vw;
+   
+}
 }
 
     
