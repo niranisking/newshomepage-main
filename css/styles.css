@@ -172,8 +172,8 @@ header a:hover {
 }
 
 .box1 {
-    width: 53.28vw;
-    height: 11.9rem;
+    width: 52.8vw;
+    height: 30vh;
  
     grid-area: box1;
 
@@ -182,7 +182,7 @@ header a:hover {
 
 .box1-img {
     width: 52.28vw;
-    height: 11.9rem;}
+    height: 30vh;}
   
 
    
@@ -191,8 +191,8 @@ header a:hover {
 
 
 .box2 {
-    height:21.85rem;
-    width: 21.4rem;
+    height:55vh;
+    width: 27.2vw;
     grid-area: box2;
    display: flex;
    flex-direction: column;
@@ -238,7 +238,7 @@ header a:hover {
 
 .box3 {
     position: relative;
-    height: 11rem;
+    height: 25vh;
     width: 21.5em;
      align-items: center;
     justify-content: center; 
@@ -260,7 +260,7 @@ header a:hover {
 }
 
 .box4 {
-    height: 11rem;
+    height: 25vh;
     width: 20rem;
    display: flex;
    flex-direction: column;
@@ -308,7 +308,7 @@ justify-content: space-evenly;
 #container-2 {
     width: 80vw;
     height: 15vh;
-    margin: 5rem auto 2rem;
+    margin: 5rem auto;
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3% ;
     grid-template-rows: 100%;
@@ -348,15 +348,18 @@ justify-content: space-evenly;
 
 
 .box5-img {
-    width: 5rem;
+    width: 8vw;
     height: 6.5rem;
 }
 
 
 .box5-content {
-   
-    margin-left: 7px;
-    line-height: 1.7;
+    
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
    
 }
 .box6 {
@@ -378,15 +381,18 @@ justify-content: space-evenly;
 
 
 .box6-img {
-    width: 5rem;
+    width: 8vw;
     height: 6.5rem;
 }
 
 
 .box6-content {
    
-    margin-left: 7px;
-    line-height: 1.7;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
    
 }
 
@@ -407,14 +413,17 @@ justify-content: space-evenly;
 
 
 .box7-img {
-    width: 5rem;
-    height: 6.5rem;}
-
+    width: 8vw;
+    height: 6.5rem;
+}
 
 .box7-content {
    
-    margin-left: 7px;
-    line-height: 1.7;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
    
 }
 
